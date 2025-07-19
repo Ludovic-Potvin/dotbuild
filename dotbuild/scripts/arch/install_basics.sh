@@ -7,6 +7,10 @@ sudo pacman -S waybar
 sudo pacman -S ttf-font-awesome
 sudo pacman -S hyprpaper
 
+# Extra
+sudo pacman -S cava
+sudo pacman -S fastfetch
+
 # Bluetooth
 sudo pacman -S blueman
 sudo pacman -S bluez
@@ -16,3 +20,4 @@ sudo pacman -S neovim
 sudo pacman -S firefox
 sudo pacman -S tmux
 sudo pacman -S obsidian
+sudo pacman -S spotify-launcher
