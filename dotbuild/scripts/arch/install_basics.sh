@@ -6,6 +6,7 @@ sudo pacman -S wofi
 sudo pacman -S waybar
 sudo pacman -S ttf-font-awesome
 sudo pacman -S hyprpaper
+sudo pacman -S hyprlock
 
 # Extra
 sudo pacman -S cava
