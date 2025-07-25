@@ -11,63 +11,56 @@
     "logo": {
         "source": "~/.config/fastfetch/cat.txt",
         "padding": {
-            "top": 2,
-            "right": 6
-        }
+            "top": 0,
+            "right": 2,
+            "bottom": 2
+        },
+        "color": {"1": "#7287fd"}
     },
     "display": {
-        "separator": " •  "
+      "separator": " •  "
     },
     "modules": [
-	"break",
-	"break",
-	{
-            "type": "title",
-            "color": {
-                "user": "32",  // = color2
-                "at": "37",
-                "host": "32"
-            }
-        },
-        "break",
-        {
-            "type": "os",
-            "key": "distribution   ",
-            "keyColor": "33",
-        },
-        {
-            "type": "kernel",
-            "key": "linux kernel   ",
-            "keyColor": "33",
-        },
-        {
-            "type": "packages",
-            "format": "{} (pacman)",
-            "key": "packages       ",
-            "keyColor": "33",  
-        },
-        {
-            "type": "shell",
-            "key": "unix shell     ",
-            "keyColor": "33", 
-        },
-        {
-            "type": "terminal",
-            "key": "terminal       ",
-            "keyColor": "33", 
-        },
-        {
-            "type": "wm",
-            "format": "{} ({3})",
-            "key": "window manager ",
-            "keyColor": "33", 
-        },
-        "break",
-        {
-            "type": "colors",
-            "symbol": "circle",
-        },
-        "break",
-        "break",
+      {
+        "type": "title",
+        "color": {
+            "user": "#7287fd",  // = color2
+            "at": "37",
+            "host": "#7287fd"
+        }
+      },
+      "break",
+      {
+        "type": "os",
+        "key": "distribution   ",
+        "keyColor": "#7287fd",
+      },
+      {
+        "type": "kernel",
+        "key": "linux kernel   ",
+        "keyColor": "#7287fd",
+      },
+      {
+        "type": "packages",
+        "format": "{} (pacman)",
+        "key": "packages       ",
+        "keyColor": "#7287fd",
+      },
+      {
+        "type": "shell",
+        "key": "unix shell     ",
+        "keyColor": "#7287fd",
+      },
+      {
+        "type": "terminal",
+        "key": "terminal       ",
+        "keyColor": "#7287fd",
+      },
+      {
+        "type": "wm",
+        "format": "{} ({3})",
+        "key": "window manager ",
+        "keyColor": "#7287fd",
+      },
     ]
 }
