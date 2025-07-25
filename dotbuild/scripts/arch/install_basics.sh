@@ -8,6 +8,7 @@ sudo pacman -S waybar
 sudo pacman -S ttf-font-awesome
 sudo pacman -S hyprpaper
 sudo pacman -S hyprlock
+sudo pacman -S starship
 
 # Extra
 sudo pacman -S cava
@@ -31,3 +32,8 @@ sudo pacman -S unzip
 git clone https://aur.archlinux.org/yay.git $HOME/yay
 cd $HOME/yay
 makepkg -si
+
+# Nerdfont
+mkdir -p ~/.local/share/fonts
+cp ~/dotbuild/fonts/*.ttf ~/.local/share/fonts
+fc-cache -fv

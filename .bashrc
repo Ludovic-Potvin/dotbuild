@@ -12,3 +12,5 @@ alias grep='grep --color=auto'
 PS1='[\u@\h \W]\$ '
 
 alias gst='git status'
+
+eval "$(starship init bash)"
