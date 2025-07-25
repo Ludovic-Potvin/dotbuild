@@ -23,14 +23,14 @@ color_bg3 = '#665c54'
 color_blue = '#ea76cb'
 color_aqua = '#7287fd'
 color_green = '#98971a'
-color_orange = '#1e66f5'
+color_orange = '#cad3f5'
 color_purple = '#b16286'
 color_red = '#cc241d'
 color_yellow = '#3c3836'
 
 [os]
 disabled = false
-style = "bg:color_orange fg:color_fg0"
+style = "bg:color_orange fg:color_bg1"
 
 [os.symbols]
 Windows = "󰍲"
@@ -57,8 +57,8 @@ Pop = ""
 
 [username]
 show_always = true
-style_user = "bg:color_orange fg:color_fg0"
-style_root = "bg:color_orange fg:color_fg0"
+style_user = "bg:color_orange fg:color_bg1"
+style_root = "bg:color_orange fg:color_bg1"
 format = '[ $user ]($style)'
 
 [directory]
