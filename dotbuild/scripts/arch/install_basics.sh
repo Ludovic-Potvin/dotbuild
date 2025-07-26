@@ -20,7 +20,6 @@ sudo pacman -S bluez
 # Apps
 sudo pacman -S neovim
 sudo pacman -S firefox
-sudo pacman -S firefox-tridactyl
 sudo pacman -S tmux
 sudo pacman -S obsidian
 sudo pacman -S spotify-launcher
