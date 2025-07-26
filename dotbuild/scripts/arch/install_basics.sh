@@ -8,7 +8,6 @@ sudo pacman -S waybar
 sudo pacman -S ttf-font-awesome
 sudo pacman -S hyprpaper
 sudo pacman -S hyprlock
-sudo pacman -S starship
 
 # Extra
 sudo pacman -S cava
@@ -21,6 +20,7 @@ sudo pacman -S bluez
 # Apps
 sudo pacman -S neovim
 sudo pacman -S firefox
+sudo pacman -S firefox-tridactyl
 sudo pacman -S tmux
 sudo pacman -S obsidian
 sudo pacman -S spotify-launcher
@@ -33,7 +33,5 @@ git clone https://aur.archlinux.org/yay.git $HOME/yay
 cd $HOME/yay
 makepkg -si
 
-# Nerdfont
-mkdir -p ~/.local/share/fonts
-cp ~/dotbuild/fonts/*.ttf ~/.local/share/fonts
-fc-cache -fv
+# Nerdfont using yay
+yay -S nerd-fonts-hack
