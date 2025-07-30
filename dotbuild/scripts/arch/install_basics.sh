@@ -13,6 +13,8 @@ sudo pacman -S hyprlock
 sudo pacman -S cava
 sudo pacman -S fastfetch
 sudo pacman -S fzf
+sudo pacman -S fd
+sudo pacman -S wl-clipboard
 
 # Bluetooth
 sudo pacman -S blueman
