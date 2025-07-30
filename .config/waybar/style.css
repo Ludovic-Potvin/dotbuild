@@ -1,102 +1,57 @@
-@import "macchiato.css";
-
 * {
-  font-family: Hack Nerd Font Mono;
-  font-size: 17px;
-  min-height: 0;
+	font-size: 18px;
+	font-family: Hack Nerd Font Mono;
 }
 
-#waybar {
-  background: transparent;
-  color: @text;
-  margin: 5px 5px;
+window#waybar {
+	background: #292b2e;
+	color: #fbf1c7;
 }
 
-#workspaces {
-  border-radius: 1rem;
-  margin: 5px;
-  background-color: @surface0;
-  margin-left: 1rem;
+#workspaces,
+#clock,
+#pulseaudio,
+#memory,
+#cpu,
+#battery,
+#disk,
+#tray {
+	background: #292b2e;
 }
 
 #workspaces button {
-  color: @lavender;
-  border-radius: 1rem;
-  padding: 0.4rem;
+	padding: 0 2px;
+	color: #fbf1c7;
 }
-
-#workspaces button.active {
-  color: @sky;
-  border-radius: 1rem;
+#workspaces button.focused {
+	color: #268bd2;
 }
-
 #workspaces button:hover {
-  color: @sapphire;
-  border-radius: 1rem;
+	box-shadow: inherit;
+	text-shadow: inherit;
 }
-
-#custom-music,
-#tray,
-#backlight,
-#clock,
-#battery,
-#pulseaudio,
-#custom-lock,
-#custom-power {
-  background-color: @surface0;
-  padding: 0.5rem 1rem;
-  margin: 5px 0;
-}
-
-#clock {
-  color: @blue;
-  border-radius: 0px 1rem 1rem 0px;
-  margin-right: 1rem;
-}
-
-#battery {
-  color: @green;
-}
-
-#battery.charging {
-  color: @green;
-}
-
-#battery.warning:not(.charging) {
-  color: @red;
-}
-
-#backlight {
-  color: @yellow;
-}
-
-#backlight, #battery {
-    border-radius: 0;
+#workspaces button:hover {
+	background: #1a1a1a;
+	border: #1a1a1a;
+	padding: 0 3px;
 }
 
 #pulseaudio {
-  color: @maroon;
-  border-radius: 1rem 0px 0px 1rem;
-  margin-left: 1rem;
+  color: #d79921;
+}
+#memory,
+#cpu {
+  color: #98971a;
+}
+#battery {
+  color: #689d6a;
 }
 
-#custom-music {
-  color: @mauve;
-  border-radius: 1rem;
-}
-
-#custom-lock {
-    border-radius: 1rem 0px 0px 1rem;
-    color: @lavender;
-}
-
-#custom-power {
-    margin-right: 1rem;
-    border-radius: 0px 1rem 1rem 0px;
-    color: @red;
-}
-
-#tray {
-  margin-right: 1rem;
-  border-radius: 1rem;
+#clock,
+#pulseaudio,
+#memory,
+#cpu,
+#battery,
+#disk {
+	padding: 0 10px;
 }

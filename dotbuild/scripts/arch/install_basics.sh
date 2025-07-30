@@ -12,6 +12,7 @@ sudo pacman -S hyprlock
 # Extra
 sudo pacman -S cava
 sudo pacman -S fastfetch
+sudo pacman -S fzf
 
 # Bluetooth
 sudo pacman -S blueman
@@ -23,6 +24,7 @@ sudo pacman -S firefox
 sudo pacman -S tmux
 sudo pacman -S obsidian
 sudo pacman -S spotify-launcher
+sudo pacman -S nwg-look
 
 # Utils
 sudo pacman -S unzip
