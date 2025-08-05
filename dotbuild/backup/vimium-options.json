@@ -1,0 +1,4 @@
+{
+  "keyMappings": "unmap J\nunmap K\nmap J nextTab\nmap K previousTab",
+  "settingsVersion": "2.3"
+}
