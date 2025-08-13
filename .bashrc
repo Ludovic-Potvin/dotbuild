@@ -5,6 +5,7 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+tmux
 fastfetch
 
 alias ls='ls --color=auto'

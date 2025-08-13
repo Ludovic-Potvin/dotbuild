@@ -44,7 +44,7 @@
 			]
 		},
 		"scroll-step": 5,
-		"on-click": "pamixer -t",
+		"on-click": "pavucontrol",
 		"on-click-right": "pavucontrol"
 	},
 	"memory": {
