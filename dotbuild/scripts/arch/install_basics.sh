@@ -15,6 +15,7 @@ sudo pacman -S fastfetch
 sudo pacman -S fzf
 sudo pacman -S fd
 sudo pacman -S wl-clipboard
+sudo pacman -S nmap
 
 # Bluetooth
 sudo pacman -S blueman
@@ -27,6 +28,7 @@ sudo pacman -S tmux
 sudo pacman -S obsidian
 sudo pacman -S spotify-launcher
 sudo pacman -S nwg-look
+sudo pacman -S discord
 
 # Utils
 sudo pacman -S unzip
