@@ -29,9 +29,12 @@ sudo pacman -S obsidian
 sudo pacman -S spotify-launcher
 sudo pacman -S nwg-look
 sudo pacman -S discord
+sudo pacman -S libreoffice-still
 
 # Utils
 sudo pacman -S unzip
+sudo pacman -S tlp
+sudo systemctl enable tlp.service
 
 # Yay
 git clone https://aur.archlinux.org/yay.git $HOME/yay
