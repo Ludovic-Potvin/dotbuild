@@ -6,6 +6,7 @@
 [[ $- != *i* ]] && return
 
 tmux
+clear
 fastfetch
 
 alias ls='ls --color=auto'
