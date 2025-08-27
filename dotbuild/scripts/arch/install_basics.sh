@@ -31,6 +31,9 @@ sudo pacman -S nwg-look
 sudo pacman -S discord
 sudo pacman -S libreoffice-still
 
+sudo pacman -S r
+sudo yay -S rstudio-desktop-bin
+
 # Utils
 sudo pacman -S unzip
 sudo pacman -S tlp
