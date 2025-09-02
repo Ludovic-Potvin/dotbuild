@@ -7,3 +7,6 @@ vim.opt.expandtab = true
 
 -- Keep cursor center
 vim.opt.scrolloff = 20
+
+-- Copy to the system clipboard
+vim.opt.clipboard = "unnamedplus"
