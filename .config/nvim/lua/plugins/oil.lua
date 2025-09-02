@@ -9,7 +9,13 @@ return {
                 end,
             }
         })
-        vim.keymap.set("n", "<leader>fd", ":Oil --float <CR>")
     end,
+    keys = {
+        {
+            "<leader>fd",
+            ":Oil --float <CR>",
+            desc = "Edit directory (Open Oil)",
+        },
+    },
 }
 
