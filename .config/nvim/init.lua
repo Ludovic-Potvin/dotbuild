@@ -10,3 +10,7 @@ vim.opt.scrolloff = 20
 
 -- Copy to the system clipboard
 vim.opt.clipboard = "unnamedplus"
+
+-- Fix the >> removing visual mode
+vim.keymap.set("v", ">", ">gv", { noremap = true, silent = true })
+vim.keymap.set("v", "<", "<gv", { noremap = true, silent = true })

@@ -15,6 +15,7 @@ return {
             "<leader>fd",
             ":Oil --float <CR>",
             desc = "Edit directory (Open Oil)",
+            silent = true,
         },
     },
 }

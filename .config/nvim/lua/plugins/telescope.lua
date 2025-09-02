@@ -31,10 +31,20 @@ return{
 
         -- load fzf extension
         telescope.load_extension("fzf")
+    end,
+    keys = {
+        {
+            "<leader>ff",
+            require("telescope.builtin").find_files,
+            desc = "Find file (Telescope)",
+            silent = true,
+        },
+        {
+            "<leader>fg",
+            require("telescope.builtin").live_grep,
+            desc = "Grep file (Telescope)",
+            silent = true,
+        },
+    }
 
-        -- keymaps
-        local builtin = require("telescope.builtin")
-        vim.keymap.set("n", "<leader>ff", builtin.find_files)
-        vim.keymap.set("n", "<leader>fg", builtin.live_grep)
-    end
 }
