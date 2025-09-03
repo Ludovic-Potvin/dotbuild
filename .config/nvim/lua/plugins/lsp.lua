@@ -12,16 +12,10 @@ return {
       local lspconfig = require("lspconfig")
       lspconfig.lua_ls.setup({
         settings = {
+          -- Lua
           Lua = {
             diagnostics = {
               globals = { "vim" },
-            },
-            format = {
-              enable = true,
-              defaultConfig = {
-                indent_style = "space",
-                indent_size = "2",
-              },
             },
           },
         },
