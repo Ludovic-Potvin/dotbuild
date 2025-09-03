@@ -13,7 +13,7 @@ return {
     keys = {
         {
             "<leader>fd",
-            ":Oil --float <CR>",
+            ":Oil<CR>",
             desc = "Edit directory (Open Oil)",
             silent = true,
         },
