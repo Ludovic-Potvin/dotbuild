@@ -30,6 +30,7 @@ sudo pacman -S spotify-launcher
 sudo pacman -S nwg-look
 sudo pacman -S discord
 sudo pacman -S libreoffice-still
+sudo pacman -S jupyter-notebook
 
 sudo pacman -S r
 sudo yay -S rstudio-desktop-bin

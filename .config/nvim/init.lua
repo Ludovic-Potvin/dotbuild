@@ -14,3 +14,12 @@ vim.opt.clipboard = "unnamedplus"
 -- Fix the >> removing visual mode
 vim.keymap.set("v", ">", ">gv", { noremap = true, silent = true })
 vim.keymap.set("v", "<", "<gv", { noremap = true, silent = true })
+
+-- Fix lua indent
+vim.api.nvim_create_autocmd("FileType", {
+    pattern = "lua",
+    callback = function()
+        vim.opt_local.shiftwidth = 2  -- indentation width
+        vim.opt_local.tabstop = 2     -- number of spaces a <Tab> counts for
+    end,
+})
