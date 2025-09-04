@@ -36,6 +36,7 @@ sudo pacman -S jupyter-notebook
 
 sudo pacman -S r
 sudo yay -S rstudio-desktop-bin
+sudo yay -S localsend
 
 # Utils
 sudo pacman -S unzip
