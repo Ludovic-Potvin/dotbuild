@@ -8,6 +8,8 @@ sudo pacman -S waybar
 sudo pacman -S ttf-font-awesome
 sudo pacman -S hyprpaper
 sudo pacman -S hyprlock
+sudo pacman -S hyprshot
+sudo pacman -S hyprpicker
 
 # Extra
 sudo pacman -S cava
