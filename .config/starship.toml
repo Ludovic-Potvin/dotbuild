@@ -16,7 +16,7 @@ $pixi\
 [](fg:color_aqua bg:color_bg1)\
 $time\
 [ ](fg:color_bg1)\
-$line_break$character"""
+"""
 
 palette = 'gruvbox_dark'
 
