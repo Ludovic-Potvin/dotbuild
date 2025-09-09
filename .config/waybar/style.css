@@ -21,33 +21,32 @@ window#waybar {
 
 #workspaces button {
 	padding: 0 2px;
-	color: #fbf1c7;
+	color: #EBDBB2;
 }
 #workspaces button.focused {
-	color: #268bd2;
+	color: #B8231D;
 }
 #workspaces button.active {
-  color: #d65d0e;
+  color: #B8231D;
 }
 #workspaces button:hover {
 	box-shadow: inherit;
 	text-shadow: inherit;
 }
 #workspaces button:hover {
-	background: #1a1a1a;
-	border: #1a1a1a;
+	background: #EBDBB2;
 	padding: 0 3px;
 }
 
 #pulseaudio {
-  color: #d79921;
+  color: #D79921;
 }
 #memory,
 #cpu {
-  color: #98971a;
+  color: #458588;
 }
 #battery {
-  color: #689d6a;
+  color: #689D6A;
 }
 
 #clock,
