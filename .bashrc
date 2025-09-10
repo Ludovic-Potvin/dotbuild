@@ -18,3 +18,4 @@ alias gst='git status'
 eval "$(starship init bash)"
 
 eval "$(fzf --bash)"
+eval "$(zoxide init bash --cmd cd)"
