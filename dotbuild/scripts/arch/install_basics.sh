@@ -15,6 +15,7 @@ sudo pacman -S hyprpicker
 sudo pacman -S cava
 sudo pacman -S fastfetch
 sudo pacman -S fzf
+sudo pacman -S ghostscript
 sudo pacman -S zoxide
 sudo pacman -S luarocks
 sudo pacman -S lazygit

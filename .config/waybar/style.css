@@ -27,7 +27,7 @@ window#waybar {
 	color: #B8231D;
 }
 #workspaces button.active {
-  color: #B8231D;
+  color: #D79921;
 }
 #workspaces button:hover {
 	box-shadow: inherit;
@@ -39,14 +39,16 @@ window#waybar {
 }
 
 #pulseaudio {
+  color: #689D6A;
+}
+#cpu {
   color: #D79921;
 }
-#memory,
-#cpu {
+#memory {
   color: #458588;
 }
 #battery {
-  color: #689D6A;
+  color: #CC241D;
 }
 
 #clock,
