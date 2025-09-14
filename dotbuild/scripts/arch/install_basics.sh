@@ -25,8 +25,6 @@ sudo pacman -S nmap
 
 # Dev
 sudo pacman -S python-pip
-sudo pacman -S python-poetry
-yay -S pyenv
 
 # Bluetooth
 sudo pacman -S blueman

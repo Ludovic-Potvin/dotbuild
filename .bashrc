@@ -20,7 +20,5 @@ eval "$(starship init bash)"
 eval "$(fzf --bash)"
 eval "$(zoxide init bash --cmd cd)"
 
-# Pyenv configs
-export PYENV_ROOT="$HOME/.pyenv"
-[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
-eval "$(pyenv init - bash)"
+# uv
+export PATH="/home/lpotvin/.local/share/../bin:$PATH"
