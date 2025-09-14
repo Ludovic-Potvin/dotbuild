@@ -23,6 +23,11 @@ sudo pacman -S fd
 sudo pacman -S wl-clipboard
 sudo pacman -S nmap
 
+# Dev
+sudo pacman -S python-pip
+sudo pacman -S python-poetry
+yay -S pyenv
+
 # Bluetooth
 sudo pacman -S blueman
 sudo pacman -S bluez
@@ -37,6 +42,7 @@ sudo pacman -S nwg-look
 sudo pacman -S discord
 sudo pacman -S libreoffice-still
 sudo pacman -S jupyter-notebook
+sudo pacman -S ollama
 
 sudo pacman -S r
 sudo yay -S rstudio-desktop-bin
