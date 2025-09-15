@@ -22,6 +22,7 @@ sudo pacman -S lazygit
 sudo pacman -S fd
 sudo pacman -S wl-clipboard
 sudo pacman -S nmap
+sudo pacman -S keyd
 
 # Dev
 sudo pacman -S python-pip
