@@ -8,3 +8,4 @@ vim.keymap.set("v", "<C-c>", "<Esc>", { noremap = true })
 
 -- Keep cursor center
 vim.opt.scrolloff = 20
+vim.opt.colorcolumn = "80"
