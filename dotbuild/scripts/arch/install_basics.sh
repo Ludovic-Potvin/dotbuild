@@ -23,6 +23,7 @@ sudo pacman -S fd
 sudo pacman -S wl-clipboard
 sudo pacman -S nmap
 sudo pacman -S keyd
+sudo pacman -S man-db
 
 # Dev
 sudo pacman -S python-pip
