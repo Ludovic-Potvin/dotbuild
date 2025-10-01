@@ -27,6 +27,8 @@ sudo pacman -S man-db
 
 # Dev
 sudo pacman -S python-pip
+yay -S opencode-bin
+sudo pacman -S lsof
 
 # Bluetooth
 sudo pacman -S blueman
