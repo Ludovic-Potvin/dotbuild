@@ -7,6 +7,11 @@ return {
           settings = {
             basedpyright = {
               exclude = { "**/site-packages" },
+              analysis = {
+                diagnosticSeverityOverrides = {
+                  reportUnusedCallResult = "none",
+                },
+              },
             },
           },
         },
