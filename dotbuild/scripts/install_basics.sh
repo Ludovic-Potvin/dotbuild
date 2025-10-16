@@ -36,7 +36,7 @@ sudo pacman -S bluez
 
 # Apps
 sudo pacman -S neovim
-sudo pacman -S firefox
+sudo yay -S zen-browser-bin
 sudo pacman -S tmux
 sudo pacman -S obsidian
 sudo pacman -S spotify-launcher
