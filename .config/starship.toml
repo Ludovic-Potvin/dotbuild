@@ -10,9 +10,16 @@ $directory\
 $git_branch\
 $git_status\
 [](fg:color_green bg:color_aqua)\
-$docker_context\
-$conda\
-$pixi\
+$c\
+$cpp\
+$rust\
+$golang\
+$nodejs\
+$php\
+$java\
+$kotlin\
+$haskell\
+$python\
 [](fg:color_aqua bg:color_bg1)\
 $time\
 [ ](fg:color_bg1)\
@@ -25,8 +32,8 @@ color_fg0 = '#fbf1c7'
 color_bg0 = '#282828'
 color_bg1 = '#3c3836'
 color_bg3 = '#665c54'
-color_blue = '#458588'
-color_aqua = '#689d6a'
+color_blue = '#C05516'
+color_aqua = '#C05516'
 color_green = '#98971a'
 color_orange = '#d65d0e'
 color_purple = '#b16286'
