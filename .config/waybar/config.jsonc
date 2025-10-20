@@ -4,6 +4,7 @@
 	"layer": "top",
 	"position": "top",
   "modules-left": [
+		"tray",
     "clock#date"
   ],
 	"modules-center": [
@@ -14,8 +15,8 @@
 		"memory",
 		"pulseaudio",
 		"battery",
-		"tray"
 	],
+
 
 	"clock#time": {
 		"format": "{:%H:%M}",
@@ -66,6 +67,7 @@
 		]
 	},
 	"tray": {
-		"icon-size": 20
+		"icon-size": 20,
+    "spacing": 10
 	}
 }

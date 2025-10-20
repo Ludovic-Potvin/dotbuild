@@ -51,6 +51,14 @@ window#waybar {
   color: #665C54;
 }
 
+#pulseaudio {
+  color: #FE8019;
+}
+
+#battery {
+  color: #B8BB26;
+}
+
 #clock,
 #pulseaudio,
 #memory,
