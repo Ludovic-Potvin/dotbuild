@@ -5,9 +5,7 @@
 
 window#waybar {
 	background: #282828;
-  border-bottom: 2px solid #3C3836;
 	color: #fbf1c7;
-  padding-bottom: 1px;
 }
 
 #workspaces,
@@ -19,7 +17,8 @@ window#waybar {
 #disk,
 #tray {
 	background: #282828;
-  border-bottom: 2px solid #3C3836;
+  margin-bottom: 2px;
+  margin-top: 2px;
 }
 
 #clock.date {
