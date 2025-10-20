@@ -1,27 +1,34 @@
 * {
 	font-size: 18px;
-	font-family: Hack Nerd Font Mono;
+	font-family: Hack Nerd Font;
 }
 
 window#waybar {
-	background: rgba(0, 0, 0, 0);
+	background: #282828;
+  border-bottom: 2px solid #3C3836;
 	color: #fbf1c7;
+  padding-bottom: 1px;
 }
 
 #workspaces,
-#clock,
+#clock.time,
 #pulseaudio,
 #memory,
 #cpu,
 #battery,
 #disk,
 #tray {
-	background: rgba(0, 0, 0, 0);;
+	background: #282828;
+  border-bottom: 2px solid #3C3836;
+}
+
+#clock.date {
+  color: #665C54; 
 }
 
 #workspaces button {
 	padding: 0 2px;
-	color: #EBDBB2;
+	color: #ebdbb2;
 }
 #workspaces button.focused {
 	color: #B8231D;
@@ -34,21 +41,15 @@ window#waybar {
 	text-shadow: inherit;
 }
 #workspaces button:hover {
-	background: #EBDBB2;
-	padding: 0 3px;
+  color: #EBDBB2;
+  background: rgba(0, 0, 0, 0);
 }
 
-#pulseaudio {
-  color: #689D6A;
-}
 #cpu {
-  color: #D79921;
+  color: #665C54;
 }
 #memory {
-  color: #458588;
-}
-#battery {
-  color: #CC241D;
+  color: #665C54;
 }
 
 #clock,
