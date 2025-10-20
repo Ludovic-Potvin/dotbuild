@@ -1,0 +1,38 @@
+[global]
+
+# Format
+font = Hack Nerd Font 12
+markup = yes
+format = "<b>%s</b>\n%b"
+
+# Viusals
+line_height = 3
+separator_height = 3
+padding = 6
+horizontal_padding = 10
+icon_position = left
+max_icon_size = 80
+frame_width = 0
+
+# Position
+monitor = 0
+origin = top-right
+offset = (0, 10)
+gap_size = 2
+stack_duplicates = false
+
+[urgency_low]
+foreground = "#B8BB26"
+background = "#282828"
+timeout = 4
+
+[urgency_normal]
+foreground = "#F6ECC3"
+background = "#282828"
+timeout = 6
+
+[urgency_critical]
+foreground = "#FE8019"
+background = "#282828"
+timeout = 8
+
