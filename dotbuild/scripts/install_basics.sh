@@ -26,6 +26,10 @@ sudo pacman -S keyd
 sudo pacman -S man-db
 sudo pacman -S papirus-icon-theme
 
+# File manager
+sudo pacman -S nemo
+sudo pamcan -s gnome-tweaks
+
 # Dev
 sudo pacman -S python-pip
 yay -S opencode-bin
