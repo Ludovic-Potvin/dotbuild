@@ -115,4 +115,9 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
 fi
 
+alias gst='git status'
+
+eval "$(fzf --zsh)"
+eval "$(zoxide init zsh --cmd cd)"
+
 source ~/.p10k.zsh
