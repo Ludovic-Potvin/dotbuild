@@ -24,6 +24,7 @@ sudo pacman -S wl-clipboard
 sudo pacman -S nmap
 sudo pacman -S keyd
 sudo pacman -S man-db
+sudo pacman -S papirus-icon-theme
 
 # Dev
 sudo pacman -S python-pip
