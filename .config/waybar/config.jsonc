@@ -8,15 +8,33 @@
     "clock#date"
   ],
 	"modules-center": [
-		"clock#time"
+    "hyprland/workspaces"
 	],
 	"modules-right": [
 		"cpu",
 		"memory",
 		"pulseaudio",
 		"battery",
+		"clock#time",
 	],
 
+  "hyprland/workspaces": {
+    "format": "{icon} {name}",
+    "format-icons": {
+      "1": "󰎞",
+      "2": "",
+      "3": "󰖟",
+      "4": "",
+      "5": "",
+      "6": "",
+      "7": "",
+      "default": ""
+    },
+    "on-click": "activate",
+    "on-scroll-up": "hyprctl dispatch workspace e+1",
+    "on-scroll-down": "hyprctl dispatch workspace e-1",
+    "sort-by-number": true
+  },
 
 	"clock#time": {
 		"format": "{:%H:%M}",

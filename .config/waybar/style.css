@@ -26,22 +26,12 @@ window#waybar {
 }
 
 #workspaces button {
-	padding: 0 2px;
+	padding: 0 10px;
 	color: #ebdbb2;
 }
-#workspaces button.focused {
-	color: #B8231D;
-}
+
 #workspaces button.active {
   color: #D79921;
-}
-#workspaces button:hover {
-	box-shadow: inherit;
-	text-shadow: inherit;
-}
-#workspaces button:hover {
-  color: #EBDBB2;
-  background: rgba(0, 0, 0, 0);
 }
 
 #cpu {
