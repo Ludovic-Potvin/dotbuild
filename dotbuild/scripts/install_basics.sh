@@ -1,6 +1,7 @@
 # Make git log work
 sudo pacman -S less
 sudo pacman -S --needed git base-devel
+sudo pacman -S github-cli
 
 # Make the hyprland theme work
 sudo pacman -S wofi
