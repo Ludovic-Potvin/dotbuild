@@ -119,5 +119,6 @@ alias gst='git status'
 
 eval "$(fzf --zsh)"
 eval "$(zoxide init zsh --cmd cd)"
+eval "$(direnv hook zsh)"
 
 source ~/.p10k.zsh
