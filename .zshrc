@@ -116,9 +116,9 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 alias gst='git status'
+alias v='nvim'
 
 eval "$(fzf --zsh)"
 eval "$(zoxide init zsh --cmd cd)"
-eval "$(direnv hook zsh)"
 
 source ~/.p10k.zsh
