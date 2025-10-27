@@ -1,16 +1,11 @@
 #window {
     font-size: 15px;
     font-family: "Hack Nerd Font";
-    background: url("file:///home/lpotvin/wallpapers/wallpaper-satellite.jpg");
-    background-size: 700px;
-    background-position: left;
-    background-repeat: no-repeat;
     border: 10px solid #282828;
+    background-color: #282828;
 }
 
 #entry{
-    padding-left: 30px;
-    background-color: #282828;
     border-radius: 0px;
     max-width: 10px;
 }
@@ -33,9 +28,7 @@
 #input{
     background-color: #665c54;
     border-radius: 0px;
-    width: 50%;
     font-size: 20px;
-    font-weight: 500;
     color: grey;
     padding: 5px;
     box-shadow: none; 
@@ -51,12 +44,6 @@
 }
 
 #inner-box {
-    padding-right:10px;
     width: 100px;
 }
 
-#outer-box{
-    margin-left: 500px;
-    background-color: #282828;
-    box-shadow: none;
-}
