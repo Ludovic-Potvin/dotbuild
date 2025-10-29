@@ -122,3 +122,9 @@ eval "$(fzf --zsh)"
 eval "$(zoxide init zsh --cmd cd)"
 
 source ~/.p10k.zsh
+
+docksh() {
+  local c
+  c=$(docker ps --format '{{.Names}}' | fzf --prompt="Select container > ")
+  [ -n "$c" ] && docker exec -it "$c" bash
+}
