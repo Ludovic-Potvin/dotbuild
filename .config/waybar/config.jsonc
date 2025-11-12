@@ -4,18 +4,18 @@
 	"layer": "top",
 	"position": "top",
   "modules-left": [
-		"tray",
-    "clock#date"
+		"clock#time",
+    "clock#date",
   ],
 	"modules-center": [
-    "hyprland/workspaces"
+    "hyprland/workspaces",
 	],
 	"modules-right": [
 		"cpu",
 		"memory",
 		"pulseaudio",
 		"battery",
-		"clock#time",
+		"tray",
 	],
 
   "hyprland/workspaces": {
@@ -42,7 +42,7 @@
   },
 
 	"clock#time": {
-		"format": "{:%H:%M}",
+		"format": "󰥔 {:%H:%M}",
 		"tooltip": false
 	},
 
