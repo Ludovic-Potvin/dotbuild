@@ -111,6 +111,14 @@ unsetopt share_history
 # Custom
 fastfetch
 
+tshssh() {
+  if tsh ls | grep 'Node Name'; then
+    local host
+    host=$(tsh ls | fzf --border | sed 's/ *⟵.*//')
+    command tsh ssh "$host"
+  fi
+}
+
 # Instant prompt
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
