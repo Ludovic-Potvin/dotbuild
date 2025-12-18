@@ -114,7 +114,7 @@ fastfetch
 tshssh() {
   if tsh ls | grep 'Node Name'; then
     local host
-    host=$(tsh ls | fzf --border | sed 's/ *⟵.*//')
+    host=$(tsh ls | fzf | sed 's/ *⟵.*//')
     command tsh ssh "$host"
   fi
 }
