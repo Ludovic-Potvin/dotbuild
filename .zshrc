@@ -127,8 +127,16 @@ fi
 alias gst='git status'
 alias v='nvim'
 
+unalias gc 2>/dev/null
+gc() {
+  local branch
+  branch=$(git branch --all --format='%(refname:short)' | fzf) || return 1
+  git switch "$branch"
+}
+
 eval "$(fzf --zsh)"
 eval "$(zoxide init zsh --cmd cd)"
+eval "$(direnv hook zsh)"
 
 source ~/.p10k.zsh
 
